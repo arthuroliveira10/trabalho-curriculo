@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Currículo profissional de Arthur Cassio Valadares de Oliveira - Estudante de Sistemas de Informação com foco em desenvolvimento web e software" />
+  <meta name="keywords" content="currículo, desenvolvedor, sistemas de informação, HTML, JavaScript, Python, desenvolvimento web" />
+  <meta name="author" content="Arthur Cassio Valadares de Oliveira" />
+  <title>Currículo - Arthur Cassio Valadares de Oliveira</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="imagens/favicon16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="imagens/favicon32.png" sizes="32x32" type="image/png">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #3498db;
+      --background-color: #f4f4f9;
+      --text-color: #333;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    .conteudo {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1, h2, h3 {
+      color: var(--primary-color);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 1em;
+    }
+
+    h2 {
+      margin-top: 1.5em;
+      font-size: 2em;
+      border-bottom: 2px solid var(--secondary-color);
+      padding-bottom: 0.3em;
+    }
+
+    h3 {
+      margin-top: 1em;
+      font-size: 1.5em;
+    }
+
+    p, ul, ol {
+      font-size: 1.1em;
+      margin-bottom: 1em;
+    }
+
+    ul, ol {
+      margin-left: 20px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #2980b9;
+    }
+
+    .foto {
+      width: 25vw;
+      max-width: 200px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin: 20px auto;
+      border: 3px solid var(--secondary-color);
+      transition: transform 0.3s ease;
+    }
+
+    .foto:hover {
+      transform: scale(1.05);
+    }
+
+    .section {
+      margin: 2em 0;
+      padding: 1em;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      body {
+        font-size: 16px;
+      }
+
+      .conteudo {
+        padding: 15px;
+        margin: 10px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      h2 {
+        font-size: 1.5em;
+      }
+
+      .foto {
+        width: 50vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        font-size: 14px;
+      }
+
+      .conteudo {
+        padding: 10px;
+      }
+
+      h1 {
+        font-size: 1.8em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    }
+
+    /* Melhorias de acessibilidade */
+    *:focus {
+      outline: 3px solid var(--secondary-color);
+      outline-offset: 2px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: var(--secondary-color);
+      color: white;
+      padding: 8px;
+      z-index: 100;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="#conteudo" class="skip-link">Pular para o conteúdo principal</a>
+  <main class="conteudo" id="conteudo">
+    <header>
+      <h1>Arthur Oliveira</h1>
+      <p role="doc-subtitle"><strong>Boas-vindas</strong> ao meu currículo online! Sou estudante de Sistemas de Informação, apaixonado por desenvolvimento web, software e sempre em busca de aprender coisas novas. Sou organizado e estou preparado para novos desafios.</p>
+    </header>
+
+    <nav aria-label="Navegação principal">
+      <h2>Índice</h2>
+      <ul>
+        <li><a href="#formacao" aria-label="Ir para seção de formação">Formação</a></li>
+        <li><a href="#linguagens" aria-label="Ir para seção de linguagens de programação">Linguagens de Programação</a></li>
+        <li><a href="#idiomas" aria-label="Ir para seção de idiomas">Idiomas</a></li>
+        <li><a href="#contato" aria-label="Ir para seção de contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <section id="formacao" class="section" aria-labelledby="formacao-titulo">
+      <h2 id="formacao-titulo">Formação</h2>
+      <p>Curso: Sistemas de Informação<br> Período: 3º semestre<br> Instituição: UNIBH</p>
+    </section>
+
+    <section id="linguagens" class="section" aria-labelledby="linguagens-titulo">
+      <h2 id="linguagens-titulo">Linguagens de Programação</h2>
+      <ul>
+        <li>HTML</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </section>
+
+    <section id="idiomas" class="section" aria-labelledby="idiomas-titulo">
+      <h2 id="idiomas-titulo">Idiomas</h2>
+      <ol>
+        <li>Português (nativo)</li>
+        <li>Inglês (intermediário)</li>
+        <li>Espanhol (básico)</li>
+      </ol>
+    </section>
+
+    <section id="contato" class="section" aria-labelledby="contato-titulo">
+      <h2 id="contato-titulo">Contato</h2>
+      <ul>
+        <li><a href="https://github.com/arthuroliveira10" target="_blank" rel="noopener noreferrer" aria-label="Perfil no GitHub (abre em nova aba)">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/arthur-c%C3%A1ssio-valadares-de-oliveira-168488287/" target="_blank" rel="noopener noreferrer" aria-label="Perfil no LinkedIn (abre em nova aba)">LinkedIn</a></li>
+        <li><a href="mailto:arthurcassio@ymail.com" aria-label="Enviar e-mail">E-mail</a></li>
+      </ul>
+    </section>
+
+    <section class="section" aria-labelledby="foto-titulo">
+      <h2 id="foto-titulo">Minha Foto</h2>
+      <img src="imagens/eumesmo.jpg" alt="Foto de Arthur Oliveira" class="foto" />
+    </section>
+
+    <section class="section" aria-labelledby="referencias-titulo">
+      <h3 id="referencias-titulo">Referências</h3>
+      <ul>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank" rel="noopener noreferrer" aria-label="Tutorial sobre HTML (abre em nova aba)">O Que é HTML</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Basic_HTML_syntax" target="_blank" rel="noopener noreferrer" aria-label="Documentação sobre sintaxe HTML (abre em nova aba)">Basic HTML Syntax</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer" aria-label="Tutorial W3Schools HTML (abre em nova aba)">W3Schools - HTML</a></li>
+        <li><a href="https://www.w3.org/" target="_blank" rel="noopener noreferrer" aria-label="Site oficial W3C (abre em nova aba)">W3C</a></li>
+        <li><a href="https://roadmap.sh/" target="_blank" rel="noopener noreferrer" aria-label="Roadmap para desenvolvedores (abre em nova aba)">Roadmap.sh</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+
+</html>
